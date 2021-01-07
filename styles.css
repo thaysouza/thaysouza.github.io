@@ -1,0 +1,86 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.menu{
+	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+
+img{
+	height: 200px;
+	width: 200px;
+}
+
+
+h1, h2, a {
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-weight: normal;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 100px;
+}
+
+p {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #b0b2b3;
+}
+
+.parte {	
+	height: 400px;	
+	border: 1px solid black;
+}
+
+.projeto{
+	height: 300px;
+}
+
+.imagem-fundo{
+	width: 1000px;
+	height: 200px;
+}
+
+
+
+.parte > a:hover {
+	background: #a494f5;
+	color: white;
+}
+
+
+
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+  }
+  
+  footer h4{
+	  color:#919496;
+	  font-size: 0.7em;
+	  text-transform: uppercase;
+  }
+  
+  footer .navbar-nav a {
+   font-size: 0.8em;
+   color: white;
+  }
+  
+  footer .navbar-nav a:hover {
+	  text-decoration: none;
+	  color: #9bf0e1;
+	 }
+  
