@@ -3,9 +3,8 @@
 
 *{
 	margin: 0;
-	padding: 0;
-
-	
+	padding: 0;	
+	box-sizing: border-box;
 }
 
 
@@ -14,26 +13,36 @@
 	
 }
 
-
-
-.caixa{
-	padding: 60px 0px;
-	border-bottom: 1px solid #e5e5e5;
-	
-}
-
-.container-foto{
- margin-top:100px ;
+.principal{
+	height: 100vh;
+	background-color: rgb(226, 226, 226);
 }
 
 
-.container-info{
-	margin-top:100px;
+.foto{
+	margin-top: 10px;
+	border-radius: 100%;
+	width: 250px;
+}
+
+
+.table{
+	width: 400px; /*media*/
+	background: rgba(255, 255, 255, .5) ;
+	font-size: 16px;
+	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.thay{
+	margin-top: -40px;
 }
 
 h1, h2, a {
 	/*font-family: 'Indie Flower', cursive;*/
-	color: white;
+	color: rgb(230, 68, 68);
 	font-weight: normal;
 }
 
@@ -41,14 +50,6 @@ h1 {
 	text-align: center;
 	
 }
-
-p {
-/*font-family: 'Indie Flower', cursive;*/
-	font-size: 1em;
-	line-height: 1.5em;
-	color: #b0b2b3;
-}
-
 
 
 .parte > a:hover {
