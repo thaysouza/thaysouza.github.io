@@ -7,20 +7,34 @@
 	box-sizing: border-box;
 }
 
-
-.menu{
-	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+body{
+	width: 100vw;
+	background-color: pink;
 	
 }
 
-.principal{
-	height: 100vh;
-	background-color: rgb(226, 226, 226);
+
+.menu{
+	box-shadow: 2px 4px 4px 2px rgba(2, 2, 2, 0.25);
+	
+	
+}
+
+.primeira-div{
+	background-image: url(img/fundo.gif);
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;	
+
+}
+
+.sombra-div{
+	background: rgba(76, 75, 75, 0.5);
 }
 
 
 .foto{
-	margin-top: 10px;
+	margin-top: 30px;
 	border-radius: 100%;
 	width: 250px;
 }
