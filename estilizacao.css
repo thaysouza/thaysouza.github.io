@@ -1,10 +1,8 @@
-
-
-
 *{
 	margin: 0;
 	padding: 0;	
 	box-sizing: border-box;
+	list-style: none;
 }
 
 body{
@@ -20,6 +18,7 @@ body{
 	
 }
 
+
 .primeira-div{
 	background-image: url(img/fundo.gif);
     background-repeat: no-repeat;
@@ -29,27 +28,92 @@ body{
 }
 
 .sombra-div{
-	background: rgba(76, 75, 75, 0.5);
+	background: rgba(76, 75, 76, 0.5);
 }
 
 
 .foto{
 	margin-top: 30px;
 	border-radius: 100%;
-	width: 250px;
+	width: 230px;
+	border: 6px solid white;
+	box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
 }
 
 
-.table{
+.table-style{
 	width: 400px; /*media*/
-	background: rgba(255, 255, 255, .5) ;
+	background: rgba(255, 255, 255, .4) ;
 	font-size: 16px;
 	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
 
+.skills {
+	margin: 60px auto;
+	
 
+}	
+
+.skills li{
+	margin: 20px 0;
+	width: 200px;
+}
+
+.code{
+	padding: 20px;	
+	color: #020008;
+	font-size: 20px;
+	font-weight: bold;
+}
+.regresso{
+	width: 400px;
+	padding: 20px;
+}
+
+
+
+.bar{
+	background-color: wheat;
+	display: block;
+	height: 8px;
+	border:  1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #a494f5;
+}
+
+.bar span{
+	height:6px;
+	float: left;
+	background-color: #2187e7;
+
+}
+
+.html{
+	width: 90%;
+	animation: html 4s;
+}
+
+.css{
+	width: 65;
+}
+
+@keyframes html{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 90%;
+	}
+}
+
+
+
+
+/*//////LETRAS//////*/
 .thay{
 	margin-top: -40px;
 }
@@ -72,6 +136,3 @@ h1 {
 }
 
 
-
-
-	
