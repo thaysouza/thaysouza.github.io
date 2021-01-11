@@ -1,16 +1,16 @@
+
 *{
 	margin: 0;
 	padding: 0;	
 	box-sizing: border-box;
-	list-style: none;
+
 }
 
 body{
-	width: 100vw;
-	background-color: pink;
-	
+        background: rgba(76, 75, 76, 0.3);
+        width: 100vw;
 }
-
+/*/////////////////////// NAV  ////////////////////////////////*/
 
 .menu{
 	box-shadow: 2px 4px 4px 2px rgba(2, 2, 2, 0.25);
@@ -19,27 +19,19 @@ body{
 }
 
 
-/*.primeira-div{
-	background-image: url(img/fundo.gif);
-    background-repeat: no-repeat;
-	background-size: cover;
-	width: 100vw;	
-
-}*/
-
-.sombra-div{
-	background: rgba(76, 75, 76, 0.5);
-}
-
+/*/////////////////////// HOME COL 1 ////////////////////////////////*/
 
 .foto{
-	margin-top: 30px;
+	margin-top: 90px;
 	border-radius: 100%;
 	width: 230px;
 	border: 6px solid white;
 	box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
 }
 
+
+
+/*/////////////////////// HOME COL 2 ////////////////////////////////*/
 
 .table-style{
 	width: 400px; /*media*/
@@ -49,55 +41,93 @@ body{
 
 }
 
-
-.skills {
-	margin: 60px auto;
-	
-
+table{
+    
+    border-radius: 10px;
+	/*box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   */
 }	
 
 .skills li{
 	margin: 20px 0;
-	width: 200px;
+    width: 400px;
+  
 }
 
 .code{
-	padding: 20px;	
+	padding: 6px;	
 	color: #020008;
-	font-size: 20px;
-	font-weight: bold;
+    font-size: 14px;
+    
+	/*font-weight: bold;*/
 }
 .regresso{
 	width: 400px;
-	padding: 20px;
+	padding: 5px;
 }
 
 
 
 .bar{
-	background-color: wheat;
+	background-color: white;
 	display: block;
-	height: 8px;
+	height: 10px;
 	border:  1px solid rgba(0,0,0,0.3);
-	border-radius: 3px;
+	border-radius: 4px;
 	overflow: hidden;
-	box-shadow: 0 0 10px #a494f5;
+	/*box-shadow: 0 0 6px #f594ed;*/
 }
 
 .bar span{
-	height:6px;
+	height:10px;
 	float: left;
-	background-color: #2187e7;
+	background-color: #fc2376;
 
 }
 
 .html{
 	width: 90%;
-	animation: html 4s;
+	animation: html 5s;
 }
 
 .css{
-	width: 65;
+	width: 80%;
+	animation: css 5s;
+}
+
+.boots{
+	width: 70%;
+	animation: boots 5s;
+}
+
+
+.javas{
+	width: 40%;
+	animation: javas 5s;
+}
+
+.nodejs{
+	width: 40%;
+	animation: nodejs 5s;
+}
+
+.react{
+	width: 50%;
+	animation: react 5s;
+}
+
+.php{
+	width: 60%;
+	animation: php 5s;
+}
+
+.sql{
+	width: 70%;
+	animation: sql 5s;
+}
+
+.java{
+	width: 20%;
+	animation: java 5s;
 }
 
 @keyframes html{
@@ -111,28 +141,113 @@ body{
 }
 
 
+@keyframes css{
+	0%{
+		width: 0%;
+	}
 
-
-/*//////LETRAS//////*/
-.thay{
-	margin-top: -40px;
+	100%{
+		width: 80%;
+	}
 }
 
-h1, h2, a {
-	/*font-family: 'Indie Flower', cursive;*/
-	color: rgb(230, 68, 68);
-	font-weight: normal;
+@keyframes boots{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
 }
 
-h1 {
-	text-align: center;
+@keyframes javas{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 40%;
+	}
+}
+
+@keyframes nodejs{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 40%;
+	}
+}
+
+@keyframes react{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes sql{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+
+@keyframes php{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes java{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 20%;
+	}
+}
+
+.btn{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 65px;
+    width: 250px;
+    margin-top: 40px;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+
+ 
+@media(max-width: 576px){
+    
+    .table-style{
+    width: 350px; 
+	font-size: 14px;
 	
+    }
+
+    .foto{
+        width: 200px; 
+    
 }
 
-
-.parte > a:hover {
-	background: #a494f5;
-	color: white;
+.img-nav{
+    width: 180px;
 }
-
-
+}
