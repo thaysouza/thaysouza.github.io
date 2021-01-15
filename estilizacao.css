@@ -15,10 +15,10 @@
 }
 
 .home{
-	background-image: url(img/fundo.gif);
-	
+	/*background-image: url(img/fundo.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;*/
+	background-color: rgba(229, 226, 226, 0.37);
 }
 
 .row{
