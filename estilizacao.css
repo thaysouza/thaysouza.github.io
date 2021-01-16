@@ -14,15 +14,8 @@
 	
 }
 
-.home{
-	/*background-image: url(img/fundo.gif);
-    background-repeat: no-repeat;
-	background-size: cover;*/
-	background-color: rgba(229, 226, 226, 0.37);
-}
-
-.row{
-	background: rgba(0,0,0,0.6);
+body{
+	background-color: rgba(219, 212, 212, 0.76);
 }
 
 
@@ -241,6 +234,14 @@ table{
 }
 
 
+
+/*////////////////////////////////////////*/
+
+.area-sobre-mim{
+	font-size: 22px;
+	
+}
+
  
 @media(max-width: 576px){
     
@@ -280,5 +281,15 @@ table{
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
 }
 
+.img-parte1{
+	width: 400px;
+}
+
+.area-sobre-mim{
+	font-size: 16px;
+}
+
 
 }
+
+
