@@ -221,7 +221,7 @@ table{
 	}
 }
 
-.btn{
+.btn-skills{
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
@@ -244,7 +244,7 @@ table{
 
 
  
-@media(max-width: 576px){
+@media (max-width: 575.98px){
     
     .table-style{
     width: 150px; 
@@ -270,7 +270,7 @@ table{
 	width: 200px;
 }
 
-.btn{
+.btn-skills{
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
@@ -282,15 +282,33 @@ table{
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
 }
 
-.img-parte1{
-	width: 400px;
-}
+
 
 .area-sobre-mim{
-	font-size: 16px;
+	font-size: 12px;
 }
 
 
 }
 
 
+@media (max-width: 767.98px){
+.area-sobre-mim{
+	font-size: 14px;
+}
+
+}
+
+@media (max-width: 991.98px) { 
+	area-sobre-mim{
+		font-size: 16px;
+	}
+ }
+
+
+@media (max-width: 1199.98px) { 
+	area-sobre-mim{
+		font-size: 18px;
+	}
+
+ }
