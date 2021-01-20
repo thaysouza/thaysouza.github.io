@@ -86,48 +86,48 @@ table{
 
 .html{
 	width: 90%;
-	animation: html 5s;
+	animation: html 4s;
 }
 
 .css{
 	width: 80%;
-	animation: css 5s;
+	animation: css 4s;
 }
 
 .boots{
 	width: 70%;
-	animation: boots 5s;
+	animation: boots 4s;
 }
 
 
 .javas{
 	width: 40%;
-	animation: javas 5s;
+	animation: javas 4s;
 }
 
 .nodejs{
 	width: 40%;
-	animation: nodejs 5s;
+	animation: nodejs 4s;
 }
 
 .react{
 	width: 50%;
-	animation: react 5s;
+	animation: react 4s;
 }
 
 .php{
 	width: 60%;
-	animation: php 5s;
+	animation: php 4s;
 }
 
 .sql{
 	width: 70%;
-	animation: sql 5s;
+	animation: sql 4s;
 }
 
 .java{
 	width: 20%;
-	animation: java 5s;
+	animation: java 4s;
 }
 
 @keyframes html{
