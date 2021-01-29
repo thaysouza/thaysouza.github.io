@@ -6,6 +6,10 @@
 
 }
 
+body{
+	background-image:linear-gradient(to right,#e0c2ce9c, #ce6c8bb0);
+}
+
 /*/////////////////////// NAV  ////////////////////////////////*/
 
 .menu{
@@ -27,6 +31,26 @@ body{
 	width: 230px;
 	border: 6px solid white;
 	box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
+}
+
+
+.span::before
+{
+    content: '';
+    animation: word-swith 4s infinite;
+}
+
+@keyframes word-swith
+{
+    0% {content: '🎵'}
+
+    25%{content: '💻';}
+
+    50%{content: '🎮';}
+
+	75% {content: '🎵'}
+
+    100%{content: '💻';}
 }
 
 
@@ -80,7 +104,7 @@ table{
 .bar span{
 	height:10px;
 	float: left;
-	background-color: #fc2376;
+	background-color:#fc2376;
 
 }
 
@@ -229,7 +253,6 @@ table{
     height: 65px;
     width: 250px;
     margin-top: 40px;
-    text-decoration: none;
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
 }
 
@@ -242,6 +265,25 @@ table{
 	
 }
 
+
+#contato h1{
+	color: #e70624c9; 
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.area-contato{
+	border-radius: 20px; 
+	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+
+
+}
+
+.area-contato form button{
+	width: 150px;
+
+}
 
  
 @media (max-width: 575.98px){
