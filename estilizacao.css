@@ -12,7 +12,7 @@ font-family: 'Amatic SC', cursive;
 
 
 body{
-	background-color: #eceff1a1 ;
+	 background-color: #eceff1a1 ;
 	/*background-image:linear-gradient(to right,#b8b7b752, #b8b7b7d8);  /*(to right,#e0c2ce9c, #ce6c8bb0*/
 	/*background-color: rgba(219, 212, 212, 0.76);*/
 }
@@ -42,13 +42,15 @@ nav ul li .nav-cv {
 	text-align: center;
 	width: 110px;
 	font-size: 14px;
-	background-color: #e573739a; 
+	background-color: #e57373cc; 
 	border-radius:20px;
 	padding: 10px;
 	font-weight: bold;
 }
 
-
+nav ul li .nav-cv:hover{
+	background-color: #e57373;	
+}
 
 
 
@@ -78,21 +80,28 @@ nav ul li .nav-cv {
 .span::before
 {
     content: '';
-    animation: word-swith 4s infinite;
+    animation: word-swith 6s infinite;
 }
+
+
 
 @keyframes word-swith
 {
-    0% {content: '🎵'}
+    0% {content: '💻'}
 
-    25%{content: '💻';}
+    25%{content: '✝️';}
 
     50%{content: '🎮';}
 
-	75% {content: '🎵'}
+    75%{content: '🦕';}
 
-    100%{content: '💻';}
+	100%{content: '💻';}
+
+	
+	
 }
+
+/*🍩 💡 📚  ✝️🖖🏻*/
 
 
 
@@ -341,27 +350,31 @@ table{
 
 
 
-/*///////////////////////////////////////////////*/
+/*/////////////////////// CONTATO  ////////////////////////*/
 
-
-#contato h1{
-	color: #e70624c9; 
+.titulo-contato{
 	font-size: 40px;
-	font-weight: bold;
+
+	
 }
 
-.area-contato{
-	border-radius: 20px; 
-	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+.email{
+	color:#e57373;
 	font-weight: bold;
-
-
+	font-size: 18px;
 }
 
-.area-contato form button{
+
+
+
+form button{
 	width: 150px;
+	background-color: #e57373;
+	color: white;
+	font-size: 20px;
 
 }
+
 
  
 @media (max-width: 575.98px){
