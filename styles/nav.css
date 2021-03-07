@@ -1,0 +1,31 @@
+
+.menu{
+	box-shadow: 2px 4px 4px 2px rgba(2, 2, 2, 0.25);
+
+	
+	
+}
+
+nav ul li .nav-nome {
+	font-size: 18px;
+	border-bottom: 3px solid white ;
+}
+
+nav ul li .nav-nome:hover{
+	border-bottom: 3px solid #e57373 ;
+
+}
+
+nav ul li .nav-cv {
+	text-align: center;
+	width: 110px;
+	font-size: 14px;
+	background-color: #e57373cc; 
+	border-radius:20px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+nav ul li .nav-cv:hover{
+	background-color: #e57373;	
+}

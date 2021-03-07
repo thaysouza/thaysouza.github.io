@@ -1,0 +1,88 @@
+/*Fontes salvar 
+font-family: 'Amatic SC', cursive;
+
+*/
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+
+}
+
+
+
+body{
+	 background-color: #eceff1a1 ;
+	/*background-image:linear-gradient(to right,#b8b7b752, #b8b7b7d8);  /*(to right,#e0c2ce9c, #ce6c8bb0*/
+	/*background-color: rgba(219, 212, 212, 0.76);*/
+}
+
+
+
+
+ 
+@media (max-width: 575.98px){
+    
+    .table-style{
+    width: 150px; 
+	font-size: 8px;
+	
+    }
+
+    .foto{
+		width: 180px; 
+		margin-top: 50px;
+    
+}
+
+.titulo-col2{
+	margin-top: 0%;
+}
+
+.img-nav{
+    width: 150px;
+}
+
+.area-home2{
+	background-color: #e57373;
+}
+
+.regresso{
+	width: 200px;
+}
+
+.skills li{
+	width: 200px;
+}
+
+.btn-skills{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+
+
+
+.area-sobre-mim{
+	font-size: 12px;
+}
+
+.row-home{
+
+    background-position:left;
+  
+}
+
+
+
+
+
+}
+
+

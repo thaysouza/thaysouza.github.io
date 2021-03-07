@@ -1,0 +1,33 @@
+.titulo-contato{
+	font-size: 40px;
+
+	
+}
+
+.area-contato{
+border: 2px solid #e5737383;
+border-radius: 20px;
+background-color: white;
+}
+
+.area-contato label{
+	color:#e57373;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+
+.area-contato button{
+	width: 150px;
+	background-color: #e57373;
+	color: white;
+	font-size: 20px;
+
+}
+
+.area-contato button:hover{
+	background-color: #e5737398;
+	color: rgb(121, 119, 119);
+
+}
