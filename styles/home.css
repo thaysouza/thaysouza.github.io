@@ -19,7 +19,7 @@
 .span::before
 {
     content: '';
-    animation: word-swith 6s infinite;
+    animation: word-swith 4s infinite;
 }
 
 
@@ -28,11 +28,11 @@
 {
     0% {content: '💻'}
 
-    25%{content: '✝️';}
+    25%{content: '🎮';}
 
-    50%{content: '🎮';}
+    50%{content: '💻';}
 
-    75%{content: '🦕';}
+    75%{content: '🎮';}
 
 	100%{content: '💻';}
 
@@ -40,7 +40,6 @@
 	
 }
 
-/*🍩 💡 📚  ✝️🖖🏻*/
 
 
 
