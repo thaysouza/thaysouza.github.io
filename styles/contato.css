@@ -1,15 +1,4 @@
-.row-contato {
-    background-image: url('./../img/fundo.gif');
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	background-attachment:fixed;
 
-}
-
-.area-contato-sombra{
-	background-color: #4443438f;
-}
 .form-control:focus {
 	border-color: #cccccc;
 	outline: 0;
@@ -21,9 +10,9 @@
 	border-radius: 20px; 
 	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
 	font-weight: bold;
-	color:white;
+	color:#757575;
 	font-size: 20px;
-	background-color: rgba(105, 103, 103, 0.26);
+	background-color: white;
 
 
 }

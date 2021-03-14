@@ -1,3 +1,8 @@
+
+.area-home-col{
+	height: 100vh;
+}
+
 .foto{
 	/*margin-top: 120px;*/
 	border-radius: 100%;
@@ -49,6 +54,7 @@
 
 
 /*/////////////////////// HOME COL 2 ////////////////////////////////*/
+
 .titulo-col2{
 	margin-top: 10%;
 	font-size: 40px;
@@ -121,13 +127,13 @@ table{
 }
 
 .boots{
-	width: 70%;
+	width: 85%;
 	animation: boots 4s;
 }
 
 
 .javas{
-	width: 40%;
+	width: 60%;
 	animation: javas 4s;
 }
 
@@ -152,7 +158,7 @@ table{
 }
 
 .java{
-	width: 20%;
+	width: 50%;
 	animation: java 4s;
 }
 
@@ -183,7 +189,7 @@ table{
 	}
 
 	100%{
-		width: 70%;
+		width: 85%;
 	}
 }
 
@@ -193,7 +199,7 @@ table{
 	}
 
 	100%{
-		width: 40%;
+		width: 60%;
 	}
 }
 
@@ -243,7 +249,7 @@ table{
 	}
 
 	100%{
-		width: 20%;
+		width: 50%;
 	}
 }
 
@@ -261,6 +267,13 @@ table{
 
 
 @media (max-width: 575.98px){
+	.area-home-col{
+		height: auto;
+	    margin-top: 10%;
+		margin-bottom: 10%;
+		  }
+
+
 	.table-style{
 	width: 300px; 
 	font-size: 12px;
@@ -288,7 +301,7 @@ table{
 
 	
 	.titulo-col2{
-		/*margin-top: -90px;*/
+		margin-top: -80px;
 		font-size: 35px;
 	}
 
@@ -321,6 +334,13 @@ table{
 
 
 @media (min-width: 576px) and (max-width: 992px){  
+	.area-home-col{
+		height: auto;
+		margin-top: 10%;
+		margin-bottom: 10%;
+
+		  }
+
 
 	.foto{
 		width: 200px; 
