@@ -254,3 +254,129 @@ table{
 }
 
 
+
+@media (max-width: 575.98px){
+	.table-style{
+	width: 200px; 
+	font-size: 8px;
+		
+	}
+	
+	.foto{
+	width: 180px; 
+	margin-top: 50px;
+		
+	}
+	
+	.titulo-col2{
+		margin-top: -90px;
+		font-size: 30px;
+	}
+
+	
+	.regresso{
+		width: 200px;
+	}
+	
+	.skills li{
+		width: 200px;
+	}
+	
+	.btn-skills{
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+		border-radius: 30px;
+		height: 50px;
+		width: 150px;
+		margin-top: 40px;
+		text-decoration: none;
+		box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
+	}
+	
+	
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 992px){  
+
+	.foto{
+		width: 200px; 
+	
+			
+		}
+
+	.table-style{
+		width: 350px; 
+		font-size: 13px;
+			
+		}
+		
+
+		
+		.titulo-col2{
+			margin-top: -100px;
+	
+		}
+	
+		
+		.regresso{
+			width: 300px;
+		}
+		
+		.skills li{
+			width: 300px;
+		}
+		
+		.btn-skills{
+			font-size: 22px;
+			font-weight: bold;
+			text-decoration: none;
+			border-radius: 30px;
+			height: 60px;
+			width: 200px;
+			margin-top: 40px;
+			text-decoration: none;
+			box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media (max-width: 575.98px){
+    
+    
+
+
+
+.texto-sobremim{
+	font-size: 15px;
+ 
+}
+
+.row-home{
+
+    background-position:left;
+  
+}
+
+
+
+
+
+}

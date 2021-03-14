@@ -29,3 +29,28 @@ nav ul li .nav-cv {
 nav ul li .nav-cv:hover{
 	background-color: #e57373;	
 }
+
+
+
+
+@media (max-width: 575.98px){
+	nav ul li .nav-nome {
+		font-size: 16px;
+		border-bottom: 2px solid white ;
+	
+	}
+
+	nav ul li .nav-nome:hover{
+		border-bottom: 2px solid #e57373 ;
+	
+	}
+
+	nav ul li .nav-cv {
+		width: 90px;
+		font-size: 12px;
+		border-radius:20px;
+		padding: 8px;
+	}
+ 
+}
+
