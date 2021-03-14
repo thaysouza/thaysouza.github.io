@@ -1,8 +1,6 @@
 .area-sobremim-texto{
-height: 100vh;
-padding-top: 10%;
+	height: 100vh;
 }
-
 
 .texto-sobremim{
 	font-size: 22px;
@@ -36,6 +34,7 @@ padding-top: 10%;
 
 .area-sobremim-texto{
   height: auto;
+  padding-top:10% ;
 	}
 
 .area-sobre-img{

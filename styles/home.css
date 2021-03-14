@@ -15,7 +15,7 @@
 	color:#757575;
 }
 
-/*
+
 .span::before
 {
     content: '';
@@ -38,7 +38,11 @@
 
 	
 	
-}*/
+}
+
+.icone-span{
+	font-size: 20px;
+}
 
 
 
@@ -257,7 +261,7 @@ table{
 
 @media (max-width: 575.98px){
 	.table-style{
-	width: 200px; 
+	width: 300px; 
 	font-size: 12px;
 		
 	}
@@ -275,6 +279,12 @@ table{
 	.front-nome{
 		font-size: 20px;	
 	}
+
+	.icone-span{
+		font-size: 12px;
+	}
+
+
 	
 	.titulo-col2{
 		/*margin-top: -90px;*/
@@ -319,15 +329,12 @@ table{
 
 	.table-style{
 		width: 350px; 
-		font-size: 13px;
+		font-size: 14px;
 			
 		}
 		
-
-		
-		.titulo-col2{
-		/*	margin-top: -100px;*/
-	
+		.icone-span{
+			font-size: 14px;
 		}
 	
 		
