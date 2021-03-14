@@ -1,33 +1,77 @@
-.titulo-contato{
-	font-size: 40px;
+.row-contato {
+    background-image: url('./../img/fundo.gif');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment:fixed;
 
-	
 }
+
+.area-contato-sombra{
+	background-color: #4443438f;
+}
+.form-control:focus {
+	border-color: #cccccc;
+	outline: 0;
+	-webkit-box-shadow: none;
+			box-shadow: none;
+  }
 
 .area-contato{
-border: 2px solid #e5737383;
-border-radius: 20px;
-background-color: white;
-}
-
-.area-contato label{
-	color:#e57373;
+	border-radius: 20px; 
+	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
 	font-weight: bold;
-	font-size: 18px;
+	color:white;
+	font-size: 20px;
+	background-color: rgba(105, 103, 103, 0.26);
+
 
 }
 
-
-.area-contato button{
+.area-contato form button{
 	width: 150px;
 	background-color: #e57373;
 	color: white;
-	font-size: 20px;
+	border-radius: 15px;
+	font-weight: bold;
+	border: 1px solid #e57373;
 
 }
 
-.area-contato button:hover{
-	background-color: #e5737398;
-	color: rgb(121, 119, 119);
+.area-contato form button:hover{
+	background-color: #e57373;
+	opacity: 0.8;
+	color: white;
+border: 1px solid #e57373;
 
+}
+
+
+
+@media (max-width: 575.98px){
+	.row-contato {
+		background-position:initial;
+	
+	}
+
+	.area-contato{
+		font-size: 15px;
+	}
+
+	.area-contato form button{
+		width: 100px;
+		
+	}
+}
+
+
+@media (min-width: 576px) and (max-width: 992px){  
+   .area-contato{
+		font-size: 18px;
+	}
+
+	.area-contato form button{
+		width: 130px;
+	
+	}
 }

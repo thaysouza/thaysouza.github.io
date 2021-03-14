@@ -6,6 +6,7 @@
 	box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
 }
 
+
 .home-nome{
 	color: #e57373;
 	font-size: 35px;
@@ -49,7 +50,7 @@
 
 /*/////////////////////// HOME COL 2 ////////////////////////////////*/
 .titulo-col2{
-	/*margin-top: 10%;*/
+	margin-top: 10%;
 	font-size: 40px;
 	
 }
