@@ -1,5 +1,6 @@
 .area-sobremim-texto{
 height: 100vh;
+padding-top: 10%;
 }
 
 
@@ -34,7 +35,7 @@ height: 100vh;
 @media (max-width: 575.98px){
 
 .area-sobremim-texto{
-  height: 85vh;
+  height: auto;
 	}
 
 .area-sobre-img{
