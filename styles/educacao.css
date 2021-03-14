@@ -1,0 +1,46 @@
+.area-educacao{
+    padding: 30px;
+}
+
+.curso-ano{
+    font-weight: bold;
+}
+
+
+@media (max-width: 575.98px){
+.educacao-nome{
+    font-size: 30px;
+}
+
+.instituicao-nome{
+    font-size: 18px;
+}
+
+.curso-nome{
+    font-size: 10px;
+}
+
+.curso-ano{
+    font-size: 15px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+    .educacao-nome{
+        font-size: 40px;
+    }
+    
+    .instituicao-nome{
+        font-size: 20px;
+    }
+    
+    .curso-nome{
+        font-size: 15px;
+    }
+    
+    .curso-ano{
+        font-size: 15px;
+    }
+}

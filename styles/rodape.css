@@ -1,0 +1,12 @@
+@media (max-width: 575.98px){
+    .rodape-nome{
+    font-size: 12px;
+    }
+    }
+    
+    @media (min-width: 576px) and (max-width: 992px){ 
+    .rodape-nome{
+        font-size: 18px;  
+    }
+    
+    }

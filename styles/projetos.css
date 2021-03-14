@@ -1,0 +1,12 @@
+@media (max-width: 575.98px){
+.projetos-nome{
+font-size: 30px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 992px){ 
+.projetos-nome{
+    font-size: 40px;  
+}
+
+}
