@@ -56,7 +56,7 @@
 /*/////////////////////// HOME COL 2 ////////////////////////////////*/
 
 .titulo-col2{
-	margin-top: 10%;
+	margin-top: 15%;
 	font-size: 40px;
 	
 }
@@ -301,8 +301,8 @@ table{
 
 	
 	.titulo-col2{
-		margin-top: -60px;
 		font-size: 35px;
+		margin-top: -10%;
 	}
 
 	
