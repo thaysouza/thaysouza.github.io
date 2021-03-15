@@ -1,20 +1,4 @@
 
-/*Animação scroll*/
-[data-left]{
-	opacity: 0;
-	transition: .3s;
-}
-
-[data-left="left"]{
-	transform: translate3d(-50px, 0 , 0);
-}
-
-[data-left].animate {
-	opacity: 1;
-	transform: translate3d(0px, 0px, 0px);
-}
-
-
 .area-sobremim-texto{
 	height: 100vh;
 }
