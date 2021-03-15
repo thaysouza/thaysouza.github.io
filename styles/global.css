@@ -2,7 +2,9 @@
 font-family: 'Amatic SC', cursive;
 
 */
-*{
+*, 
+*::after,
+*::before {
 	margin: 0;
 	padding: 0;	
 	box-sizing: border-box;
@@ -12,8 +14,8 @@ font-family: 'Amatic SC', cursive;
 
 
 body{
-	 background-color: #eceff1a1 ;
-	/*background-image:linear-gradient(to right,#b8b7b752, #b8b7b7d8);  /*(to right,#e0c2ce9c, #ce6c8bb0*/
+	 background-color: #eceff1b4 ;
+	/*background-image:linear-gradient(to right,#dbdcddbe, #dbdcdd9a);  /*(to right,#e0c2ce9c, #ce6c8bb0*/
 	/*background-color: rgba(219, 212, 212, 0.76);*/
 }
 
