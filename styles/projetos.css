@@ -1,41 +1,38 @@
 .zoom-container {
-    position: relative;
-    overflow: hidden;
-
-  }
-  .zoom-container img {
-    max-width: 100%;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  .zoom-container:hover img {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.7);
-  }
-
-  .btn-projetos{
-    background-color: #e57373;
-    color: white;
-    border-radius: 5px;
-  }
-
-  .btn-projetos:hover{  
-   opacity: 0.8;
-   color: white;
-
-  }
-
-@media (max-width: 575.98px){
-.projetos-nome{
-font-size: 30px;
+  position: relative;
+  overflow: hidden;
 }
+.zoom-container img {
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.zoom-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.7);
 }
 
-@media (min-width: 576px) and (max-width: 992px){ 
-.projetos-nome{
-    font-size: 40px;  
+.btn-projetos {
+  background-color: #e57373;
+  color: white;
+  border-radius: 5px;
 }
 
+.btn-projetos:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+@media (max-width: 575.98px) {
+  .projetos-nome {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .projetos-nome {
+    font-size: 40px;
+  }
 }

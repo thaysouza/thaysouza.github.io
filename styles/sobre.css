@@ -1,108 +1,87 @@
-
-.area-sobremim-texto{
-	height: 100vh;
+.area-sobremim-texto {
+  height: 100vh;
 }
 
-.texto-sobremim{
-	font-size: 22px;
-	font-family: 'Kanit', sans-serif;
-	color:#757575;
-	
+.texto-sobremim {
+  font-size: 22px;
+  font-family: "Kanit", sans-serif;
+  color: #757575;
 }
 
-
-.img-sobremim{
-	border: 8px solid #e57373;
-	opacity: 0.9;
-	box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
+.img-sobremim {
+  border: 8px solid #e57373;
+  opacity: 0.9;
+  box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
 }
 
-.sobremim-nome{
-	color: #e57373;
-	font-size: 40px;
+.sobremim-nome {
+  color: #e57373;
+  font-size: 40px;
 }
 
-.logo-redes{
-	color:#757575;
+.logo-redes {
+  color: #757575;
 }
 
-.card-redes{
-	background-color: #eceff1a1;
+.card-redes {
+  background-color: #eceff1a1;
 }
 
+@media (max-width: 575.98px) {
+  .area-sobremim-texto {
+    height: auto;
+    padding-top: 10%;
+  }
 
+  .area-sobre-img {
+    margin-bottom: 5%;
+  }
 
+  .img-sobremim {
+    width: 230px;
+  }
 
-@media (max-width: 575.98px){
+  .coffee {
+    width: 140px;
+  }
 
-.area-sobremim-texto{
-  height: auto;
-  padding-top:10% ;
-	}
+  .coracao {
+    width: 32px;
+  }
 
-.area-sobre-img{
-  margin-bottom: 5%;
+  .pac {
+    width: 40px;
+  }
 
- }
-
-
-.img-sobremim{
-	width: 230px;
-
+  .sobremim-nome {
+    font-size: 30px;
+  }
+  .texto-sobremim {
+    font-size: 18px;
+  }
 }
 
-.coffee{
-	width: 140px;
+@media (min-width: 576px) and (max-width: 992px) {
+  .img-sobremim {
+    width: 260px;
+  }
+
+  .coffee {
+    width: 150px;
+  }
+
+  .coracao {
+    width: 36px;
+  }
+
+  .pac {
+    width: 45px;
+  }
+
+  .sobremim-nome {
+    font-size: 40px;
+  }
+  .texto-sobremim {
+    font-size: 20px;
+  }
 }
-
-.coracao{
-	width: 32px;
-}
-
-.pac{
- width: 40px;
-}
-
-.sobremim-nome{
-	font-size: 30px;
-}
-.texto-sobremim{
-	font-size: 18px;
- 
-}
-
-
-}
-
-@media (min-width: 576px) and (max-width: 992px){  
-  
-	  .img-sobremim{
-		  width: 260px;
-	  
-	  }
-	  
-	  .coffee{
-		  width: 150px;
-	  }
-	  
-	  .coracao{
-		  width: 36px;
-	  }
-	  
-	  .pac{
-	   width: 45px;
-	  }
-	  
-	  .sobremim-nome{
-		  font-size: 40px;
-	  }
-	  .texto-sobremim{
-		  font-size: 20px;
-	   
-	  }
-
-}
-
-
-
-

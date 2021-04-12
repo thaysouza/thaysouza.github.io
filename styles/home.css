@@ -1,400 +1,354 @@
-*, 
+*,
 *::after,
 *::before {
-	margin: 0;
-	padding: 0;	
-	box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.area-home-col{
-	height: 100vh;
+.area-home-col {
+  height: 100vh;
 }
 
-.foto{
-	/*margin-top: 120px;*/
-	border-radius: 100%;
-	width: 230px;
-	border: 6px solid white;
-	box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
+.foto {
+  /*margin-top: 120px;*/
+  border-radius: 100%;
+  width: 230px;
+  border: 6px solid white;
+  box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
 }
 
-
-.home-nome{
-	color: #e57373;
-	font-size: 35px;
+.home-nome {
+  color: #e57373;
+  font-size: 35px;
 }
 
-.front-nome{
-	color:#757575;
+.front-nome {
+  color: #757575;
 }
 
-
-.span::before
-{
-    content: '';
-    animation: word-swith 4s infinite;
+.span::before {
+  content: "";
+  animation: word-swith 4s infinite;
 }
 
+@keyframes word-swith {
+  0% {
+    content: "💻";
+  }
 
+  25% {
+    content: "🎮";
+  }
 
-@keyframes word-swith
-{
-    0% {content: '💻'}
+  50% {
+    content: "💻";
+  }
 
-    25%{content: '🎮';}
+  75% {
+    content: "🎮";
+  }
 
-    50%{content: '💻';}
-
-    75%{content: '🎮';}
-
-	100%{content: '💻';}
-
-	
-	
+  100% {
+    content: "💻";
+  }
 }
 
-.icone-span{
-	font-size: 20px;
+.icone-span {
+  font-size: 20px;
 }
-
-
-
 
 /*/////////////////////// HOME COL 2 ////////////////////////////////*/
 
-.titulo-col2{
-	margin-top: 15%;
-	font-size: 40px;
-	
+.titulo-col2 {
+  margin-top: 15%;
+  font-size: 40px;
 }
 
-.table-style{
-	width: 400px; 
-	background: rgba(255, 255, 255, 0.589) ;
-	font-size: 15px;
-	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
-
-table{
-    
-    border-radius: 10px;
-	/*box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   */
-}	
-
-
-.skills li{
-	margin: 20px 0;
-    width: 400px;
+.table-style {
+ font-family: "Kanit", sans-serif;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.589);
+  font-size: 15px;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.5px;
   
 }
 
-.code{
-	padding: 6px;	
-	color:#757575;
-	font-weight: bold;
-    font-size: 14px;
-    
-
-}
-.regresso{
-	width: 400px;
-	padding: 5px;
+table {
+  border-radius: 10px;
+  /*box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   */
 }
 
-
-
-.bar{
-	background-color: white;
-	display: block;
-	height: 10px;
-	border:  1px solid rgba(0,0,0,0.3);
-	border-radius: 4px;
-	overflow: hidden;
-
+.skills li {
+  margin: 20px 0;
+  width: 400px;
 }
 
-.bar span{
-	height:10px;
-	float: left;
-	background-color:#e57373; 
-
+.code {
+  padding: 6px;
+  color: #757575;
+  font-weight: bold;
+  font-size: 14px;
+}
+.regresso {
+  width: 400px;
+  padding: 5px;
 }
 
-
-
-.html{
-	width: 90%;
-	animation: html 4s;
+.bar {
+  background-color: white;
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
 }
 
-.css{
-	width: 80%;
-	animation: css 4s;
+.bar span {
+  height: 10px;
+  float: left;
+  background-color: #e57373;
 }
 
-.boots{
-	width: 85%;
-	animation: boots 4s;
+.html {
+  width: 90%;
+  animation: html 4s;
 }
 
-
-.javas{
-	width: 60%;
-	animation: javas 4s;
+.css {
+  width: 80%;
+  animation: css 4s;
 }
 
-.nodejs{
-	width: 40%;
-	animation: nodejs 4s;
+.boots {
+  width: 85%;
+  animation: boots 4s;
 }
 
-.react{
-	width: 50%;
-	animation: react 4s;
+.javas {
+  width: 60%;
+  animation: javas 4s;
 }
 
-.php{
-	width: 60%;
-	animation: php 4s;
+.nodejs {
+  width: 40%;
+  animation: nodejs 4s;
 }
 
-.sql{
-	width: 70%;
-	animation: sql 4s;
+.react {
+  width: 50%;
+  animation: react 4s;
 }
 
-.java{
-	width: 50%;
-	animation: java 4s;
+.php {
+  width: 60%;
+  animation: php 4s;
 }
 
-@keyframes html{
-	0%{
-		width: 0%;
-	}
-
-	100%{
-		width: 90%;
-	}
+.sql {
+  width: 70%;
+  animation: sql 4s;
 }
 
-
-@keyframes css{
-	0%{
-		width: 0%;
-	}
-
-	100%{
-		width: 80%;
-	}
+.java {
+  width: 50%;
+  animation: java 4s;
 }
 
-@keyframes boots{
-	0%{
-		width: 0%;
-	}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
 
-	100%{
-		width: 85%;
-	}
+  100% {
+    width: 90%;
+  }
 }
 
-@keyframes javas{
-	0%{
-		width: 0%;
-	}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
 
-	100%{
-		width: 60%;
-	}
+  100% {
+    width: 80%;
+  }
 }
 
-@keyframes nodejs{
-	0%{
-		width: 0%;
-	}
+@keyframes boots {
+  0% {
+    width: 0%;
+  }
 
-	100%{
-		width: 40%;
-	}
+  100% {
+    width: 85%;
+  }
 }
 
-@keyframes react{
-	0%{
-		width: 0%;
-	}
+@keyframes javas {
+  0% {
+    width: 0%;
+  }
 
-	100%{
-		width: 50%;
-	}
+  100% {
+    width: 60%;
+  }
 }
 
-@keyframes sql{
-	0%{
-		width: 0%;
-	}
+@keyframes nodejs {
+  0% {
+    width: 0%;
+  }
 
-	100%{
-		width: 70%;
-	}
+  100% {
+    width: 40%;
+  }
 }
 
-@keyframes php{
-	0%{
-		width: 0%;
-	}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
 
-	100%{
-		width: 60%;
-	}
+  100% {
+    width: 50%;
+  }
 }
 
-@keyframes java{
-	0%{
-		width: 0%;
-	}
+@keyframes sql {
+  0% {
+    width: 0%;
+  }
 
-	100%{
-		width: 50%;
-	}
+  100% {
+    width: 70%;
+  }
 }
 
-.btn-skills{
-    font-size: 25px;
+@keyframes php {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+.btn-skills {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  height: 65px;
+  width: 250px;
+  margin-top: 40px;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 575.98px) {
+  .area-home-col {
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .table-style {
+    width: 300px;
+    font-size: 12px;
+  }
+
+  .foto {
+    width: 180px;
+    margin-top: 15px;
+  }
+
+  .home-nome {
+    font-size: 30px;
+  }
+
+  .front-nome {
+    font-size: 20px;
+  }
+
+  .icone-span {
+    font-size: 12px;
+  }
+
+  .titulo-col2 {
+    font-size: 35px;
+    margin-top: -5%;
+  }
+
+  .regresso {
+    width: 250px;
+  }
+
+  .skills li {
+    width: 250px;
+  }
+
+  .btn-skills {
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 30px;
-    height: 65px;
-    width: 250px;
+    height: 55px;
+    width: 180px;
     margin-top: 40px;
-    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
+    text-decoration: none;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 
+@media (min-width: 576px) and (max-width: 992px) {
+  .area-home-col {
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
 
+  .foto {
+    width: 200px;
+  }
 
-@media (max-width: 575.98px){
-	.area-home-col{
-		height: auto;
-	    margin-top: 10%;
-		margin-bottom: 10%;
-		  }
+  .table-style {
+    width: 350px;
+    font-size: 14px;
+  }
 
+  .icone-span {
+    font-size: 14px;
+  }
 
-	.table-style{
-	width: 300px; 
-	font-size: 12px;
-		
-	}
-	
-	.foto{
-	width: 180px; 
-	margin-top: 15px;
-		
-	}
+  .regresso {
+    width: 300px;
+  }
 
-	.home-nome{
-		font-size: 30px;
-	}
+  .skills li {
+    width: 300px;
+  }
 
-	.front-nome{
-		font-size: 20px;	
-	}
-
-	.icone-span{
-		font-size: 12px;
-	}
-
-
-	
-	.titulo-col2{
-		font-size: 35px;
-		margin-top: -5%;
-	}
-
-	
-	.regresso{
-		width: 250px;
-	}
-	
-	.skills li{
-		width: 250px;
-	}
-	
-	.btn-skills{
-		font-size: 20px;
-		font-weight: bold;
-		text-decoration: none;
-		border-radius: 30px;
-		height: 55px;
-		width: 180px;
-		margin-top: 40px;
-		text-decoration: none;
-		box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
-	}
-	
-	
-
+  .btn-skills {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 60px;
+    width: 200px;
+    margin-top: 40px;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
-
-
-
-
-@media (min-width: 576px) and (max-width: 992px){  
-	.area-home-col{
-		height: auto;
-		margin-top: 10%;
-		margin-bottom: 10%;
-
-		  }
-
-
-	.foto{
-		width: 200px; 
-	
-			
-		}
-
-	.table-style{
-		width: 350px; 
-		font-size: 14px;
-			
-		}
-		
-		.icone-span{
-			font-size: 14px;
-		}
-	
-		
-		.regresso{
-			width: 300px;
-		}
-		
-		.skills li{
-			width: 300px;
-		}
-		
-		.btn-skills{
-			font-size: 22px;
-			font-weight: bold;
-			text-decoration: none;
-			border-radius: 30px;
-			height: 60px;
-			width: 200px;
-			margin-top: 40px;
-			text-decoration: none;
-			box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
-		}
-
-}
-
-
-
-
-
-
-
-
-

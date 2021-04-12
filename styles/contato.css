@@ -1,66 +1,55 @@
-
 .form-control:focus {
-	border-color: #cccccc;
-	outline: 0;
-	-webkit-box-shadow: none;
-			box-shadow: none;
+  border-color: #cccccc;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.area-contato {
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: #757575;
+  font-size: 20px;
+  background-color: white;
+}
+
+.area-contato form button {
+  width: 150px;
+  background-color: #e57373;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  border: 1px solid #e57373;
+}
+
+.area-contato form button:hover {
+  background-color: #e57373;
+  opacity: 0.8;
+  color: white;
+  border: 1px solid #e57373;
+}
+
+@media (max-width: 575.98px) {
+  .row-contato {
+    background-position: initial;
   }
 
-.area-contato{
-	border-radius: 20px; 
-	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
-	font-weight: bold;
-	color:#757575;
-	font-size: 20px;
-	background-color: white;
+  .area-contato {
+    font-size: 15px;
+  }
 
-
+  .area-contato form button {
+    width: 100px;
+  }
 }
 
-.area-contato form button{
-	width: 150px;
-	background-color: #e57373;
-	color: white;
-	border-radius: 15px;
-	font-weight: bold;
-	border: 1px solid #e57373;
+@media (min-width: 576px) and (max-width: 992px) {
+  .area-contato {
+    font-size: 18px;
+  }
 
-}
-
-.area-contato form button:hover{
-	background-color: #e57373;
-	opacity: 0.8;
-	color: white;
-border: 1px solid #e57373;
-
-}
-
-
-
-@media (max-width: 575.98px){
-	.row-contato {
-		background-position:initial;
-	
-	}
-
-	.area-contato{
-		font-size: 15px;
-	}
-
-	.area-contato form button{
-		width: 100px;
-		
-	}
-}
-
-
-@media (min-width: 576px) and (max-width: 992px){  
-   .area-contato{
-		font-size: 18px;
-	}
-
-	.area-contato form button{
-		width: 130px;
-	
-	}
+  .area-contato form button {
+    width: 130px;
+  }
 }

@@ -2,25 +2,16 @@
 font-family: 'Amatic SC', cursive;
 
 */
-*, 
+*,
 *::after,
 *::before {
-	margin: 0;
-	padding: 0;	
-	box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-body{
-	 background-color: #eceff1b4 ;
-	/*background-image:linear-gradient(to right,#dbdcddbe, #dbdcdd9a);  /*(to right,#e0c2ce9c, #ce6c8bb0*/
-	/*background-color: rgba(219, 212, 212, 0.76);*/
+body {
+  background-color: #eceff1b4;
+  /*background-image:linear-gradient(to right,#dbdcddbe, #dbdcdd9a);  /*(to right,#e0c2ce9c, #ce6c8bb0*/
+  /*background-color: rgba(219, 212, 212, 0.76);*/
 }
-
-
-
-
-
-
